@@ -1,0 +1,21 @@
+{
+    "name": "epzuz/bitrix-exchange",
+    "autoload": {
+        "psr-4": {
+            "Epzuz\\BitrixExchange\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stanislav Tsarkov",
+            "email": "epzuz@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    }
+}
