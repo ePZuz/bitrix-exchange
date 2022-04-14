@@ -1,4 +1,5 @@
 <?php
+namespace Epzuz\BitrixExchange\Interfaces;
 
 interface ProductInterface
 {

@@ -1,4 +1,5 @@
 <?php
+namespace Epzuz\BitrixExchange\Helpers;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
