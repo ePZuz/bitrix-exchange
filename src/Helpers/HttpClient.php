@@ -9,9 +9,9 @@ class HttpClient
 
     protected Client $client;
 
-    public function __construct()
+    public function __construct($params = [])
     {
-        $this->client = new Client();
+        $this->client = new Client($params);
     }
 
     /**
